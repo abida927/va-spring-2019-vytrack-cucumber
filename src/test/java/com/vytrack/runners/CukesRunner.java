@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/com/vytrack/features/",
         glue = "com/vytrack/step_definitions",
-        tags = "@logout",
-        dryRun = false
+        tags = "@login",
+        dryRun = true
 )
 public class CukesRunner {
 }
